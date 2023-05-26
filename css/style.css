@@ -1006,3 +1006,7 @@ b, strong {
     text-align: center;
     margin: 1rem 0;
 }
+@media (max-width: 639px){
+.products_details .download-btn {
+    text-align: center;
+}}
