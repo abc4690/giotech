@@ -971,3 +971,38 @@ b, strong {
     padding: 10px;
     text-align: center;
 }
+@media (max-width: 639px){
+    .products_details .other-models .btn {
+        flex: 0 0 45%;
+        max-width: 45%;
+    }}
+@media (max-width: 767px) {
+    h5, .h5 {
+      font-size: 1rem; /* Adjust the font size as needed */
+    }
+  }
+
+  .products_details .other-models .btn {
+    color: #444;
+    text-decoration: none;
+    border-color: #6c757d;
+    margin: 6px;
+}
+.products_details .other-models {
+    padding-top: 0rem;
+}
+
+.products_details .other-models {
+    width: fit-content;
+    margin-top: 10px;
+}
+.products_details .other-models {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.product_features .inner-box {
+    text-align: center;
+    margin: 1rem 0;
+}
