@@ -1043,3 +1043,14 @@ b, strong {
     background-color: var(--primary);
     border-color:var(--primary);
 }
+
+#logo {
+    width: 210px; /* Adjust the width as needed */
+    height: auto; /* Automatically adjust the height */
+    display: block; /* Ensures the image is displayed as a block element */
+    /* margin: 10px; Adds some margin around the logo */
+}
+.border-end {
+    border-right: 0px solid #dee2e6 !important;
+    /* display: none ; */
+}
