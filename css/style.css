@@ -1043,7 +1043,15 @@ b, strong {
     background-color: var(--primary);
     border-color:var(--primary);
 }
-
+/* Media query for mobile devices */
+@media (max-width: 767px) {
+#mobile-icon-container {
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+}
+  
+/* logo */
 #logo {
     width: 210px; /* Adjust the width as needed */
     height: auto; /* Automatically adjust the height */
