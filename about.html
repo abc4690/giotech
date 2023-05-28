@@ -9,7 +9,7 @@
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link href="img/favicon.png" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -35,8 +35,9 @@
 <body>
     <!-- Spinner Start -->
     <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
-            <span class="sr-only">Loading...</span>
+        <div class="loader-container">
+          <div class="spinner"></div>
+          <img src="img/favicon.png" alt="Logo" class="loader-logo">
         </div>
     </div>
     <!-- Spinner End -->
@@ -50,7 +51,7 @@
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
         <a href="index.html" class="navbar-brand d-flex align-items-center border-end px-4 px-lg-5">
-            <h2 class="m-0 text-primary">GioTech</h2>
+            <img id="logo" src="img/main-logo.png" alt="Logo">
         </a>
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
@@ -198,7 +199,7 @@
                                 <p>Promote global sustainability partnerships: Seek collaborations with governments, organizations, and stakeholders for large-scale renewable energy projects. Drive policy changes, raise awareness, and provide clean energy to underserved communities worldwide.</p>
 
                                 <!-- <div class="section-header">
-                                    <h2>Why choose PIXON to become an authorized dealer? </h2>
+                                    <h2>Why choose Giotech to become an authorized dealer? </h2>
                                     <hr/>
                                 </div>
                                 <ul class="listing">
