@@ -1101,6 +1101,50 @@ b, strong {
     0% { transform: translate(-50%, -50%) rotate(0deg); }
     100% { transform: translate(-50%, -50%) rotate(360deg); }
   }
-  
-  
-  
+ 
+.fw-bold {
+    font-weight: 700!important;
+}
+.bdr-s-b {
+    border: 2px solid #4daf40;
+    border: 2px solid var(--Primary);
+    border-radius: 8px;
+    text-align: center;
+}
+.bdr-s-b {
+    border: 2px solid var(--primary);
+    border-radius: 8px;
+    text-align: center;
+}
+.solar-product-datail h6 {
+    align-items: center;
+    display: flex;
+    text-align: left;
+}
+.icon-solar-product {
+    color: var(--primary);
+    font-size: 32px;
+}
+.arrow {
+    color: #4daf40;
+    color: var(--primary);
+    margin-left: 100px;
+}
+
+.btn-success {
+    background-color:var(--primary);
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+.solar-pv-module-title {
+    color: var(--primary);
+    font-weight: 600;
+    margin-bottom: 50px;
+    margin-top: 75px;
+}
+.solar-backview-mono {
+    width: 100%;
+}
+.solar-backview-wdt {
+    width: 50%;
+}
