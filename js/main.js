@@ -94,5 +94,26 @@
         portfolioIsotope.isotope({filter: $(this).data('filter')});
     });
     
+    //readmore
+    const toggleContentLinks = document.querySelectorAll('.toggle-content');
+    toggleContentLinks.forEach(link => {
+        link.addEventListener('click', function(event) {
+            event.preventDefault();
+            const contentPreview = this.closest('.service-item').querySelector('.content-preview');
+            const fullContent = this.closest('.service-item').querySelector('.full-content');
+
+            contentPreview.style.display = contentPreview.style.display === 'none' ? 'block' : 'none';
+            fullContent.style.display = fullContent.style.display === 'none' ? 'block' : 'none';
+        });
+    });
+
+    window.onload = function() {
+        // Hide the loader
+        document.getElementById('loader').style.display = 'none';
+      
+        // Display the content
+        document.getElementById('content-container').style.display = 'block'; // or opacity: 1;
+      };
+      
 })(jQuery);
 
