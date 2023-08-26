@@ -105,7 +105,7 @@
             contentPreview.style.display = contentPreview.style.display === 'none' ? 'block' : 'none';
             fullContent.style.display = fullContent.style.display === 'none' ? 'block' : 'none';
         });
-    });
+    }); 
 
     window.onload = function() {
         // Hide the loader
@@ -115,5 +115,12 @@
         document.getElementById('content-container').style.display = 'block'; // or opacity: 1;
       };
       
+      //block rightclick
+      function blockRightClick(event) {
+        event.preventDefault(); // Prevent the default context menu
+    }
+
+    // Attach the blockRightClick function to the "contextmenu" event
+    document.addEventListener("contextmenu", blockRightClick);
 })(jQuery);
 
