@@ -105,7 +105,7 @@
             contentPreview.style.display = contentPreview.style.display === 'none' ? 'block' : 'none';
             fullContent.style.display = fullContent.style.display === 'none' ? 'block' : 'none';
         });
-    });
+    }); 
 
     window.onload = function() {
         // Hide the loader
